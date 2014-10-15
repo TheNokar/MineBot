@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `bot_votes` (
+	`id` INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	`vote` VARCHAR(255) NOT NULL,
+	`creator` VARCHAR(255) NOT NULL,
+	`channel` VARCHAR(255) NOT NULL,
+	`date_executed` VARCHAR(10) NOT NULL,
+    `date_expire` VARCHAR(10) NOT NULL
+);
